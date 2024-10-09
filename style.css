@@ -1,0 +1,63 @@
+body { 
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+}
+
+.foto {
+  margin-right: 20px;
+}
+
+.foto img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+
+.nama {
+  flex: 1; /* Menggunakan flex agar lebih responsif */
+}
+
+.nama h1 {
+  margin-top: 0;
+  color: #fff;
+}
+
+.about-me, .pendidikan, .pengalaman-kerja, .skill {
+  margin-top: 20px;
+  padding: 20px;
+  background-color: #f7f7f7;
+  border: 1px solid #ddd;
+}
+
+.about-me h2, .pendidikan h2, .pengalaman-kerja h2, .skill h2 {
+  margin-top: 0;
+}
+
+.about-me ul, .pendidikan ul, .pengalaman-kerja ul, .skill ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.about-me li, .pendidikan li, .pengalaman-kerja li, .skill li {
+  margin-bottom: 10px;
+}
